@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#0099cc"
+    tools:context=".ActivityMyPoints"
+    android:id="@+id/activity_my_points">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="0dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:visibility="visible"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+        <!-- Progress bar -->
+        <ProgressBar
+            android:id="@+id/toolbar_progress_bar"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="right"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:indeterminate="true"
+            android:visibility="gone" />
+    </android.support.v7.widget.Toolbar>
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <ProgressBar
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:keepScreenOn="true"
+        android:id="@+id/points_progress_bar"
+        />
+    <TextView
+        android:id="@+id/point_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/total_user_point_text"
+        android:textColor="#FFF"
+        android:textSize="50sp"
+        android:visibility="gone"
+
+        android:textStyle="bold" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/share_point_button"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginEnd="10dp"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/ic_share_white_24dp"
+                android:text="@string/share_my_point"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/withdraw_point_button"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/ic_share_white_24dp"
+
+                android:text="@string/withdraw_point"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/activitypoints"
+            android:layout_width="136dp"
+            android:layout_height="56dp"
+            android:autoText="true"
+            android:textStyle="bold"
+            android:paddingLeft="@dimen/TitleMarginBottom"
+            android:paddingTop="15dp"
+            android:textColor="@color/white"
+            android:text="Activity Points"
+            android:visibility="visible" />
+    </FrameLayout>
+
+</FrameLayout>

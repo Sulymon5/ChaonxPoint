@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/points"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.chatonx.application.activities.ActivityMyPoints">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <ProgressBar
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:keepScreenOn="true"
+        android:id="@+id/points_progress_bar"
+        />
+    <TextView
+        android:id="@+id/point_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/total_user_point_text"
+        android:textColor="#FFF"
+        android:textSize="50sp"
+        android:visibility="gone"
+
+        android:textStyle="bold" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?maxActionInlineWidth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/share_point_button"
+                style="?maxActionInlineWidth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginEnd="10dp"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/ic_share_white_24dp"
+                android:text="@string/share_my_point"
+                android:textColor="@color/colorWhite"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ic_share_white_24dp" />
+
+            <Button
+                android:id="@+id/withdraw_point_button"
+                style="?actionMenuTextAppearance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/ic_share_white_24dp"
+
+                android:text="@string/withdraw_point"
+                android:textColor="@color/colorWhite"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#0099cc"
+    tools:context="com.chatonx.application.activities.ActivityPoints"
+    android:layout_height="match_parent">
+
+</LinearLayout>

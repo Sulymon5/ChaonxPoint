@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1c28a1</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#190894</color>
+    <color name="colorAccentSecondary">#448AFF</color>
+    <color name="colorPrimaryLight">#FFCDD2</color>
+    <color name="colorPrimaryLightSelect">#FFCDD2</color>
+    <color name="colorPrimaryLightRipple">#FFCDD2</color>
+    <color name="colorPrimaryLightRipple_">#FFCDD2</color>
+    <color name="colorBlueLight">#03A9F4</color>
+    <color name="colorBlueLighter">#907acef4</color>
+    <color name="colorBlueGroup">#007ee5</color>
+    <color name="colorHolderDrawable">#40d681</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="colorGreenProgressBars">#34b7f1</color>
+
+    <color name="colorOtherBubble">#0a17af</color>
+    <color name="colorRightBubble">#ffffff</color>
+    <color name="colorLeftBubble">#1114a4</color>
+    <color name="colorMsgBg">#969696</color>
+    <color name="colorUnSelected">#E6E6E6</color>
+    <color name="colorUnSelectedMedia">#636363</color>
+
+    <color name="colorSlideIndicator">#2733ac</color>
+    <color name="colorSlideIndicatorLight">#ee1e2dca</color>
+    <color name="colorUnSelectedTab">#E6E6E6</color>
+    <color name="colorSelectedTab">#0917A7</color>
+    <color name="colorSpanSearch">#0917A7</color>
+    <color name="colorActionMode">#0917A7</color>
+
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="colorOrangeDark">#FF5722</color>
+    <color name="colorRedDark">#E00034</color>
+    <color name="colorOrangeLight">#FF5252</color>
+    <color name="colorOrange">#FF9800</color>
+    <color name="colorBlack">#ff000000</color>
+    <color name="colorBlackLight">#2f000000</color>
+    <color name="colorBlackLighter">#1f000000</color>
+    <color name="colorBlackLightCustomToast">#7f000000</color>
+    <color name="colorBlackOpc">#10000000</color>
+    <color name="colorPinkDark">#E91E63</color>
+    <color name="colorPinkLight">#F06898</color>
+    <color name="colorPinkVeryLight">#FCDCE8</color>
+    <color name="colorSea">#009ea5</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteLight">#21ffffff</color>
+    <color name="colorWhiteLighter">#99ffffff</color>
+    <color name="colorGreenVeryDark">#00C853</color>
+    <color name="colorGreenLight">#0EC654</color>
+    <color name="colorGreenDark">#00E676</color>
+    <color name="colorBanana">#f4f4dd</color>
+    <color name="colorGray">#E6E6E6</color>
+    <color name="colorGrayLighter">#EAEAEA</color>
+    <color name="colorGray3">#B6B6B6</color>
+    <color name="colorGray4">#DADADA</color>
+
+    <color name="colorMaize">#f7c14b</color>
+
+    <!-- Attachements -->
+
+    <color name="colorAttachVideo">#009688</color>
+
+    <color name="colorAttachGalleryStart">#F06898</color>
+    <color name="colorAttachGalleryEnd">#E91E63</color>
+
+    <color name="colorAttachDocStart">#137ECF</color>
+    <color name="colorAttachDocEnd">#1591E5</color>
+
+    <color name="colorAttachAudioStart">#E00034</color>
+    <color name="colorAttachAudioEnd">#FF5252</color>
+
+    <!--holders -->
+    <color name="colorBgHolderGray">#DBE2E5</color>
+    <color name="colorBgHolderGroupGreen">#75C78A</color>
+    <color name="colorBgHolderUserGreen">#63B4AA</color>
+    <!--holders colors-->
+    <color name="colorMessageBackground">#ece5dd</color>
+    <color name="colorGray2">#888888</color>
+    <color name="colorGrayStatus">#34465d</color>
+    <color name="colorGrayTransparent">#20000000</color>
+    <color name="colorGrayDark">#636363</color>
+    <color name="colorGrayDarker">#607D8B</color>
+    <color name="colorGrayDarkerBar">#455A64</color>
+    <color name="colorGrayLight">#EAEAEA</color>
+    <color name="colorHanBlue">#446CCF</color>
+    <color name="colorJelly">#DA614E</color>
+    <color name="colorLightSeaGreen">#20B2AA</color>
+    <color name="colorMetallic">#0A7E8C</color>
+    <color name="colorBeauBlue">#8fBCD4E6</color>
+    <color name="colorCeladionGreen">#ACE1AF</color>
+    <color name="colorPearl">#88D8C0</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorYellow">#EEFF41</color>
+    <color name="colorCyan">#00FFFF</color>
+    <color name="colorGreenFlow">#80cbc4</color>
+    <color name="colorGreenDeep">#009688</color>
+    <color name="colorGreenLighter">#6f0EC654</color>
+</resources>
